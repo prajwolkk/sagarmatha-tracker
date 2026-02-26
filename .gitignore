@@ -1,0 +1,38 @@
+# Node / Build
+node_modules/
+dist/
+build/
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp
+logs/
+*.log
+tmp/
+temp/
+
+# Coverage
+coverage/
+
+# Turbo / pnpm cache
+.turbo/
+.pnpm-store/
