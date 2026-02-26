@@ -25,9 +25,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
+        run: npm install -g pnpm@10.30.2   # Pin exact version matching your local
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
